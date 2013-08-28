@@ -5,6 +5,8 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	//declaring the variables
+
 	int **matrixA,**matrixB,**matrixC;
 	int rowA,colA,rowB,colB;
 	char hold;
@@ -41,6 +43,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		for(j=0;j<colB;j++)
 			cin>>matrixB[i][j];
 
+	// if invalid input
 	if(colA != rowB){
 		cout<<"Invalid Input"<<endl;
 		return 0;
